@@ -1,0 +1,137 @@
+.slider-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.success-stories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom-management {
+  margin-top: 100px;
+}
+
+.bottom-management h2 {
+  color: #29292b;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 49.56px;
+  letter-spacing: -1px;
+  font-family: "sequel_sansbook_head" !important;
+}
+
+.bottom-management p {
+  color: #757b8a;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 360;
+  line-height: 140%;
+  max-width: 663px;
+  margin: auto;
+}
+
+.client-profs {
+  margin: 0 10px;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  border-radius: 33.77px;
+  overflow: hidden;
+  position: relative; /* Add this */
+  display: flex;
+}
+.description-box-data {
+  height: 48px;
+  width: 369px;
+  position: absolute;
+  bottom: 13px;
+  left: 23px;
+  text-align: left;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.card-content-data {
+  
+}
+.client-profs img {
+  width: 100%;
+}
+
+.card-bottom-data {
+  font-family: "sequel_sansbook_head" !important;
+  font-weight: 360;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -1;
+  color: #888e9e;
+}
+
+.image-container-profile {
+  height: 100%;
+  width: 100%;
+}
+
+p.owners-disp {
+  color: #fff;
+  font-family: "Inter", sans-serif !important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  margin: 0px;
+  position: absolute;
+  bottom: 13px;
+  left: 23px;
+  text-align: left;
+}
+.bottom-management button {
+  border-radius: 60px;
+  border: 1px solid #101828;
+  padding: 7px 36px;
+  background: transparent;
+  color: #101828;
+  font-size: 18px;
+  font-weight: 415;
+  margin-top: 30px;
+  font-family: "sequel_sansbook_head" !important;
+}
+
+.menu-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu-item {
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.menu-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for webkit browsers */
+}
+
+.menu-container {
+  -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}

@@ -1,0 +1,54 @@
+
+.next-step {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.next-step h3 {
+    color: #29292B;
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 420;
+    line-height: normal;
+    letter-spacing: -1px;
+    margin: 0px;
+}
+
+.next-step button {
+    border-radius: 60px;
+    background: #29292B;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 415;
+    line-height: normal;
+    padding: 9px 26px;
+    border: navajowhite;
+    outline: none;
+    font-family: 'sequel_sansbook_head' !important;
+    margin-top: 30px;
+}
+
+.next-title h1 {
+    background: linear-gradient(to right, #1AB2FF 33.15%, #FFB258 62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    margin: 0px;
+    text-align: center;
+    font-size: 183px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 193px;
+    letter-spacing: -1px;
+    font-family: "Inter", sans-serif !important;
+}
+
+
+.next-step-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
