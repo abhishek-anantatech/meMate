@@ -20,7 +20,7 @@
   text-align: center;
   font-size: 42px;
   font-style: normal;
-  font-weight: 420;
+  font-weight: 600;
   line-height: normal;
   letter-spacing: -1px;
   font-family: "sequel_sansbook_head" !important;
@@ -40,7 +40,7 @@
   line-height: 110px;
   letter-spacing: -6px;
   font-family: "Inter", sans-serif !important;
-  margin-top: 16px;
+  margin-top: 1px;
   margin-bottom: 0px;
 }
 
@@ -50,7 +50,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 360;
-  line-height: 140%;
+  line-height: 25.2px;
   font-family: "sequel_sansbook_head" !important;
   max-width: 471px;
   margin: auto !important;
@@ -65,8 +65,9 @@ button.book-a-demo {
   background: transparent;
   color: #fff;
   text-align: center;
-  -webkit-text-stroke-color: var(--Gray-900, #101828);
+  -webkit-text-stroke-color:  #101828;
   font-size: 18px;
+  height: 53px;
   font-style: normal;
   font-weight: 415;
   line-height: normal;

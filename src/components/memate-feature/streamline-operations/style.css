@@ -29,8 +29,8 @@
     font-size: 118px;
     font-style: normal;
     font-weight: 700;
-    line-height: 100px;
-    letter-spacing: -1px;
+    line-height: 110px;
+    letter-spacing: -6px;
     font-family: "Inter", sans-serif !important;
 }
 
@@ -93,7 +93,7 @@ p.all-text {
     font-size: 20px;
     font-style: normal;
     font-weight: 360;
-    line-height: 140%;
+    line-height: 28px;
     max-width: 450px;
     text-align: left;
     margin-bottom: 48px;
@@ -121,10 +121,10 @@ button.get-started-btn {
     -webkit-text-fill-color: transparent;
     margin: 0px;
     text-align: center;
-    font-size: 118px;
+    font-size: 158.83px;
     font-style: normal;
     font-weight: 700;
-    line-height: 100px;
+    line-height: 1.1;
     letter-spacing: -1px;
     font-family: "Inter", sans-serif !important;
 }
@@ -132,5 +132,5 @@ button.get-started-btn {
 .max-image {
     position: absolute;
     top: 36px;
-    right: -51px;
+    right:56px;
 }

@@ -9,24 +9,23 @@
   font-size: 42px;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;
+  line-height: 49.56px;
   font-family: "sequel_sansbook_head" !important;
   max-width: 741px;
   margin: auto;
 }
 
 .heding-text-top {
-  padding: 21px 0px 0px;
+  padding: 26px 0px 23px 0px;
 }
 
 .heding-text-top h1 {
   text-align: center;
-  font-size: 160px;
-  font-style: normal;
+  font-size: 220px;
   font-weight: 425;
-  line-height: 144px;
+  line-height: 184px;
   letter-spacing: 1px;
-  font-family: "Inter", sans-serif !important;
+  font-family: "sequel_sansbook_head" !important;
   font-weight: 700;
 }
 
@@ -61,21 +60,27 @@ h1.text {
 
 .macBook-image {
   width: 1060px;
+  margin-left: 10svw;
 }
-
+.image-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .how-to-use p {
   color: #29292b;
   text-align: center;
   font-size: 25px;
   font-style: normal;
   font-weight: 600;
-  line-height: 34px;
+  line-height: 35px;
   font-family: "sequel_sansbook_head" !important;
   margin: 0px;
 }
 
 .how-to-use {
-  margin-top: 50px;
+  margin-top: 48px;
 }
 
 .businesses-mode span {
@@ -84,7 +89,7 @@ h1.text {
   font-size: 18px;
   font-style: normal;
   font-weight: 360;
-  line-height: 140%;
+  line-height:25.2px;
   font-family: "sequel_sansbook_head" !important;
 }
 
@@ -93,20 +98,20 @@ h1.text {
 }
 
 .request-btn {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .request-btn button {
-    border-radius: 60px;
-    background: #29292B;
-    color: #FFF;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 415;
-    line-height: normal;
-    padding: 12px 24px;
-    border: navajowhite;
-    outline: none;
-    font-family: 'sequel_sansbook_head' !important;
+  border-radius: 60px;
+  background: #29292b;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 415;
+  line-height: 21.24px;
+  padding: 12px 24px;
+  border: navajowhite;
+  outline: none;
+  font-family: "sequel_sansbook_head" !important;
 }

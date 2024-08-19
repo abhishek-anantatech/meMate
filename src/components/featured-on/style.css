@@ -8,7 +8,7 @@
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
-    line-height: 140%;
+    line-height: 35px;
     font-family: 'sequel_sansbook_head' !important;
 }
 
@@ -18,5 +18,5 @@
     justify-content: center;
     gap: 73px;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 24px;
 }

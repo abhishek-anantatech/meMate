@@ -18,19 +18,20 @@ const BussinessManagement = () => {
           </h1>
         </div>
       </div>
+      <div className="image-wrapper">
+        <div className="macBook-image">
+          <div className="big-img-mac">
+            <img src={Images.macLeptop} />
+            <div className="iphone-image">
+              <img src={Images.iphone} />
+            </div>
+            <div className="create-new-text">
+              <img src={Images.rightImage} />
+            </div>
 
-      <div className="macBook-image">
-        <div className="big-img-mac">
-          <img src={Images.macLeptop} />
-          <div className="iphone-image">
-            <img src={Images.iphone} />
-          </div>
-          <div className="create-new-text">
-            <img src={Images.rightImage} />
-          </div>
-
-          <div className="metric-item">
-            <img src={Images.metricItem} />
+            <div className="metric-item">
+              <img src={Images.metricItem} />
+            </div>
           </div>
         </div>
       </div>

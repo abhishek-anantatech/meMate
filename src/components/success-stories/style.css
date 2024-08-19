@@ -31,7 +31,7 @@
   font-weight: 360;
   line-height: 140%;
   max-width: 663px;
-  margin: auto;
+  margin-top: 30px;
 }
 
 .client-profs {
@@ -55,9 +55,7 @@
   word-wrap: break-word;
   white-space: normal;
 }
-.card-content-data {
-  
-}
+
 .client-profs img {
   width: 100%;
 }
@@ -97,7 +95,8 @@ p.owners-disp {
   color: #101828;
   font-size: 18px;
   font-weight: 415;
-  margin-top: 30px;
+
+  margin-top: 38px;
   font-family: "sequel_sansbook_head" !important;
 }
 

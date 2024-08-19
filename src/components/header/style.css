@@ -33,7 +33,7 @@
 }
 
 .header-navbar-item p{
-    font-weight: 420;
+    font-weight: 600;
     font-size: 17px;
     line-height: 20.06px;
     color: #29292B;
@@ -49,12 +49,15 @@
 
 .header-navbar-item-about p{
     margin-left: 33px;
+    font-size: 17px;
+    font-weight: 600;
 }
 .header-navbar-item-about span{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 button.border-gradient {
     position: relative;
@@ -71,6 +74,8 @@ button.border-gradient {
     max-height: 52px;
     max-width: 138px;
     cursor: pointer;
+    height: 52px;
+    width: 138px;
 }
 
 button.border-gradient::after {

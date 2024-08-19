@@ -127,7 +127,7 @@ const FindOneApplication = () => {
               </div>
             </div>
 
-            <div className="bottom-management">
+            <div className="bottom-managements">
               <h2>Sales</h2>
               <p>
                 Manage quotes, proposals, follow-ups, and approvals in a simple
@@ -148,7 +148,7 @@ const FindOneApplication = () => {
               </div>
             </div>
 
-            <div className="bottom-management">
+            <div className="bottom-managements">
               <h2>Quote</h2>
               <p>Create invoices, receive payments, set reminders.</p>
               <button>Find more</button>
@@ -166,7 +166,7 @@ const FindOneApplication = () => {
               </div>
             </div>
 
-            <div className="bottom-management">
+            <div className="bottom-managements">
               <h2>Profitability</h2>
               <p>
                 Budgeting, real-time operational profit for each project, and
@@ -191,7 +191,7 @@ const FindOneApplication = () => {
               </div>
             </div>
 
-            <div className="bottom-management">
+            <div className="bottom-managements">
               <h2>Reporting</h2>
               <p>Real-time profitability, goals, and statistics.</p>
               <button>Find more</button>
@@ -213,7 +213,7 @@ const FindOneApplication = () => {
               </div>
             </div>
 
-            <div className="bottom-management">
+            <div className="bottom-managements">
               <h2>Communication</h2>
               <p>
                 SMS, emails, and notes related to one project all in one place.
@@ -237,7 +237,7 @@ const FindOneApplication = () => {
               </div>
             </div>
 
-            <div className="bottom-management">
+            <div className="bottom-managements">
               <p>
                 Calculate from preset products and services for budgeting and
                 quick and easy quotes.
@@ -261,7 +261,7 @@ const FindOneApplication = () => {
               </div>
             </div>
 
-            <div className="bottom-management">
+            <div className="bottom-managements">
               <h2>Employees and Contractors</h2>
               <p>Workforce managementssssss, time sheets, and approvals.</p>
     
@@ -280,7 +280,7 @@ const FindOneApplication = () => {
               </div>
             </div>
 
-            <div className="bottom-management">
+            <div className="bottom-managements">
               <h2>Employees and Contractors</h2>
               <p>
                 Time tracking and contractor management made easier with a
@@ -305,7 +305,7 @@ const FindOneApplication = () => {
               </div>
             </div>
 
-            <div className="bottom-management">
+            <div className="bottom-managements">
               <h2>Management</h2>
               <p>
                 See all ongoing projects on one screen with unparalleled

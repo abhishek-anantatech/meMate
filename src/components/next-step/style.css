@@ -1,17 +1,19 @@
 
 .next-step {
     margin-top: 120px;
-    margin-bottom: 80px;
+    margin-bottom: 80px; 
 }
+
 
 .next-step h3 {
     color: #29292B;
     text-align: center;
     font-size: 42px;
     font-style: normal;
-    font-weight: 420;
+    font-weight: 600;
     line-height: normal;
     letter-spacing: -1px;
+    font-family: "sequel_sansbook_head" !important;
     margin: 0px;
 }
 
@@ -25,26 +27,37 @@
     font-weight: 415;
     line-height: normal;
     padding: 9px 26px;
+    height: 52px;
     border: navajowhite;
     outline: none;
     font-family: 'sequel_sansbook_head' !important;
-    margin-top: 30px;
 }
+
+
 
 .next-title h1 {
     background: linear-gradient(to right, #1AB2FF 33.15%, #FFB258 62%);
+    background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
     cursor: pointer;
-    margin: 0px;
+    margin: 0;
     text-align: center;
-    font-size: 183px;
+    font-size: 297px;
     font-style: normal;
     font-weight: 700;
-    line-height: 193px;
-    letter-spacing: -1px;
+    line-height: 1.1; 
+    letter-spacing: -16px;
     font-family: "Inter", sans-serif !important;
+    padding: 20px; 
+    overflow-wrap: break-word;
+    margin-top: -70px;
 }
+
+.next-step {
+    overflow: hidden; /* Ensures any overflow is clipped */
+}
+
 
 
 .next-step-btn-container{
