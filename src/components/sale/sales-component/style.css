@@ -1,0 +1,69 @@
+.sales-component-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sales-heading {
+  font-size: 220px;
+  letter-spacing: 1px;
+  font-weight: 425px;
+  font-family: "sequel_sansbook_head" !important;
+  background: linear-gradient(to right, #1ab2ff -58.05%, #ffb258 102%);
+  margin-top: 41px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.sales-componet-content-wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sales-componet-content-wrapper p {
+  margin-top: 27px;
+  font-size: 42px;
+  font-weight: 600;
+  font-family: "sequel_sansbook_head" !important;
+  color: #29292b;
+}
+
+.sales-componet-content-wrapper span {
+  text-align: center;
+  font-family: "sequel_sansbook_head" !important;
+  font-weight: 360;
+  line-height: 25.2px;
+  color: #757b8a;
+}
+
+.sales-component-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+.sales-component-button-wrapper{
+    margin-top: 30px;
+}
+.sales-component-button-wrapper button {
+  border-radius: 60px;
+  background: #29292b;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 415;
+  line-height: 21.24px;
+  padding: 12px 24px;
+  border: navajowhite;
+  outline: none;
+  font-family: "sequel_sansbook_head" !important;
+}

@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
+import { FeaturePage, LandingPage } from "./pages";
 import './App.css';
-import { LandingPage } from "./pages";
 
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
        <Routes>
           <Route path="/" exact element={<LandingPage/>}/>
+          <Route path="/feature-page-sales" exact element={<FeaturePage/>}/>
        </Routes>
     </div>
   );

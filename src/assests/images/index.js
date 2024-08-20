@@ -87,6 +87,11 @@ const Images = {
   instagramIcon:require("./instagram.svg").default,
   linkdinIcon:require("./linkdin.svg").default,
   macBook:require('./macbook-mock-up.svg').default,
+  leadsTable:require("./leads-table.svg").default,
+  ModalSaleContact:require("./Modal-Sales-Contact.svg").default,
+  MenuContact:require("./Menu.svg").default,
+  pipeLine:require("./pipelinie-menu.svg").default,
+  filterPipeline:require("./filter-pipeline.svg").default
 };
 
 export default Images;

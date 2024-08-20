@@ -1,3 +1,3 @@
 import LandingPage from "./landing-page";
-
-export {LandingPage};
+import FeaturePage from "./feature-page";
+export { LandingPage, FeaturePage };

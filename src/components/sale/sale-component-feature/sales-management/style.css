@@ -1,0 +1,45 @@
+.sales-management-wrapper-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+}
+
+.content-wrapper {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.sale-title {
+  font-family: "sequel_sansbook_head" !important;
+  font-size: 21px;
+  line-height: 21px;
+  color: #242122;
+}
+
+.sales-heading-sales {
+  margin-top: 50px;
+  font-size: 38px !important;
+  font-weight: 600;
+  font-family: "sequel_sansbook_head" !important;
+  color: #29292B;
+}
+
+.sales-description-sales {
+  margin-top: 38px;
+  font-size: 20px;
+  font-weight: 360px;
+  font-family: "sequel_sansbook_head" !important;
+  color: #888e9e;
+  line-height: 28px;
+}
+
+.sales-type {
+  font-size: 58px;
+  font-family: "sequel_sansbook_head" !important;
+  line-height: 68.44px;
+  color:   #29292B;
+  font-weight: 700;
+}
