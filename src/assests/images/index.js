@@ -91,7 +91,12 @@ const Images = {
   ModalSaleContact:require("./Modal-Sales-Contact.svg").default,
   MenuContact:require("./Menu.svg").default,
   pipeLine:require("./pipelinie-menu.svg").default,
-  filterPipeline:require("./filter-pipeline.svg").default
+  filterPipeline:require("./filter-pipeline.svg").default,
+  salesProtestOptimization:require("./sales-protest-optimization.svg").default,
+  pipeLineManagement:require("./pipeline-management.svg").default,
+  suitableMenu:require("./suitable-menu.svg").default,
+  suitableImage:require("./suitable-temp.svg").default,
+  investmentIcon:require("./investment-icon.svg").default
 };
 
 export default Images;
