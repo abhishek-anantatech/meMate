@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-const NextStep = () => {
+const NextStep = (props) => {
   return (
     <div className="next-step">
       <h3>Take the</h3>
@@ -8,7 +8,7 @@ const NextStep = () => {
         <h1>next step</h1>
       </div>
       <div className="next-step-btn-container">
-        <button>Get started</button>
+        <button>{props.text}</button>
       </div>
     </div>
   );

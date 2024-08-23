@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./style.css";
 import Images from "../../../assests/images";
 import PlanOne from "./plan-one";
+import PlanTwo from "./plan-two";
+import PlanThree from "./plan-three";
 const SmartInvestment = () => {
   const { selectPlan, setSelectPlan } = useState(0);
   return (
@@ -33,8 +35,8 @@ const SmartInvestment = () => {
 
       <div className="invest-plan-wrapper">
        <PlanOne/>
-       <PlanOne/>
-       <PlanOne/>
+       <PlanTwo/>
+       <PlanThree/>
       </div>
     </div>
   );
