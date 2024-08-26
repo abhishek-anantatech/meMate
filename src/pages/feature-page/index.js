@@ -13,7 +13,7 @@ const FeaturePage = () => {
       <SalesComponentFeature />
       <SmartInvestment />
       <QuestionAnswer />
-      <NextStep text="Book a demo"/>
+      <NextStep text="Request a Demo"/>
     </Layout>
   );
 };

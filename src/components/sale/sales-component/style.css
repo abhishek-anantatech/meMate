@@ -9,29 +9,36 @@
 .sales-heading {
   font-size: 220px;
   letter-spacing: 1px;
-  font-weight: 425px;
+  font-weight: 700;
   font-family: "sequel_sansbook_head" !important;
   background: linear-gradient(to right, #1ab2ff -58.05%, #ffb258 102%);
-  margin-top: 41px;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  line-height: 164px;
+  font-style: normal;
+  margin-top: 81px;
+  font-feature-settings: "liga" off, "clig" off;
 }
 
 .sales-componet-content-wrapper {
   display: flex;
-  width: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding:0px 2%;
 }
 
 .sales-componet-content-wrapper p {
-  margin-top: 27px;
+  margin-top: 77px;
   font-size: 42px;
   font-weight: 600;
   font-family: "sequel_sansbook_head" !important;
   color: #29292b;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
 }
 
 .sales-componet-content-wrapper span {
@@ -39,7 +46,8 @@
   font-family: "sequel_sansbook_head" !important;
   font-weight: 360;
   line-height: 25.2px;
-  color: #757b8a;
+  color: #757B8A;
+  font-size:18px;
 }
 
 .sales-component-content {
@@ -47,11 +55,14 @@
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  max-width: 750px;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  white-space: normal;
 }
 
-
-.sales-component-button-wrapper{
-    margin-top: 30px;
+.sales-component-button-wrapper {
+  margin-top: 30px;
 }
 .sales-component-button-wrapper button {
   border-radius: 60px;
@@ -62,8 +73,8 @@
   font-style: normal;
   font-weight: 415;
   line-height: 21.24px;
-  padding: 12px 24px;
-  border: navajowhite;
+  padding: 20px 24px 19px;
+  width: 168px;
   outline: none;
   font-family: "sequel_sansbook_head" !important;
 }

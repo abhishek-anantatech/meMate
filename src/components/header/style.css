@@ -1,10 +1,10 @@
 .header {
-    margin: 40px 0px;
+    padding: 40px 2% 40.30px 2%;
 }
 
 .header-flex-cont {
     display: flex;
-    width: 1200px;
+    max-width: 1200px;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
@@ -17,7 +17,7 @@
 
 .header-navbar-container{
     height: 65px;
-    width: 548px;
+    max-width: 548px;
     display: flex;
     justify-content: space-between;
     align-items: center;

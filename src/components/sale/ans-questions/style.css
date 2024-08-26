@@ -5,7 +5,22 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+
 }
+
+
+.plus-icon-image-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width:24px;
+}
+.plus-icon-image-wrapper .icon {
+    height: 24px;
+    width: 24px;
+  }
+  
 
 .question-answer-content{
     width: 1199px;

@@ -1,67 +1,94 @@
-
 .next-step {
-    margin-top: 120px;
-    margin-bottom: 80px; 
+  margin-top: 120px;
+  margin-bottom: 80px;
 }
 
-
 .next-step h3 {
-    color: #29292B;
-    text-align: center;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -1px;
-    font-family: "sequel_sansbook_head" !important;
-    margin: 0px;
+  color: #29292b;
+  text-align: center;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1px;
+  font-family: "sequel_sansbook_head" !important;
+  margin: 0px;
 }
 
 .next-step button {
-    border-radius: 60px;
-    background: #29292B;
-    color: #FFF;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 415;
-    line-height: normal;
-    padding: 9px 26px;
-    height: 52px;
-    border: navajowhite;
-    outline: none;
-    font-family: 'sequel_sansbook_head' !important;
+  border-radius: 60px;
+  background: #29292b;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 415;
+  line-height: normal;
+  padding: 9px 26px;
+  height: 52px;
+  border: navajowhite;
+  outline: none;
+  font-family: "sequel_sansbook_head" !important;
 }
 
-
-
 .next-title h1 {
-    background: linear-gradient(to right, #1AB2FF 33.15%, #FFB258 62%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    cursor: pointer;
-    margin: 0;
-    text-align: center;
-    font-size: 297px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.1; 
-    letter-spacing: -16px;
-    font-family: "Inter", sans-serif !important;
-    padding: 20px; 
-    overflow-wrap: break-word;
-    margin-top: -70px;
+  background: linear-gradient(to right, #1ab2ff 33.15%, #ffb258 62%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  text-align: center;
+  font-size: 297px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -16px;
+  font-family: "Inter", sans-serif !important;
+  overflow-wrap: break-word;
 }
 
 .next-step {
-    overflow: hidden; /* Ensures any overflow is clipped */
+  overflow: hidden;
 }
 
+.next-step-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
 
+.next-step-page-description {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
+}
 
-.next-step-btn-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.next-step-data {
+  color: #29292b;
+  text-align: center;
+  font-family: "sequel_sansbook_head" !important;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+
+.next-title {
+  padding: 0px 60px;
+}
+
+.next-step-data-description {
+  color: #757b8a;
+  text-align: center;
+  font-family: "sequel_sansbook_head" !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 360;
+  line-height: 25.2px;
+  max-width: 750px;
 }

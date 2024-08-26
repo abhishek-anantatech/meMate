@@ -33,7 +33,7 @@ const LandingPage = () => {
       <SeamlessInegration/>
       <SimpleVersatilePowerful/>
       <SuccessStories/>
-      <NextStep text="Get Started"/>
+      <NextStep text="Request a Demo"/>
     </Layout>
   )
 }

@@ -2,8 +2,10 @@ import "./style.css";
 const SalesComponent = () => {
   return (
     <div className="sales-component-wrapper">
-      <h1 className="sales-heading">sales</h1>
-
+      <div>
+        
+      </div>
+      <span className="sales-heading">sales</span>
       <div className="sales-componet-content-wrapper">
         <p>Sales funnels</p>
         <div className="sales-component-content">
@@ -15,8 +17,8 @@ const SalesComponent = () => {
         </div>
 
         <div className="sales-component-button-wrapper">
-            <button>Book a demo</button>
-        </div>  
+          <button>Book a demo</button>
+        </div>
       </div>
     </div>
   );

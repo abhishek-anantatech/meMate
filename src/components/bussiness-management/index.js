@@ -19,7 +19,12 @@ const BussinessManagement = () => {
         </div>
       </div>
       <div className="image-wrapper">
-        <div className="macBook-image">
+           <img style={{
+            width:"100%",
+            height:"auto",
+            padding:"0px 30px",
+           }} src={Images.landingHero}/>
+        {/* <div className="macBook-image">
           <div className="big-img-mac">
             <img src={Images.macLeptop} />
             <div className="iphone-image">
@@ -33,7 +38,7 @@ const BussinessManagement = () => {
               <img src={Images.metricItem} />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="how-to-use">

@@ -1,4 +1,5 @@
 const Images = {
+  landingHero: require("./landing-hero.png"),
   logo: require("./logo.svg").default,
   macLeptop:require('./mackook-image.svg').default,
   iphone:require('./iphone-image.svg').default,
@@ -96,7 +97,8 @@ const Images = {
   pipeLineManagement:require("./pipeline-management.svg").default,
   suitableMenu:require("./suitable-menu.svg").default,
   suitableImage:require("./suitable-temp.svg").default,
-  investmentIcon:require("./investment-icon.svg").default
+  investmentIcon:require("./investment-icon.svg").default,
+  selectedQuestion:require("./plus-question-icon.svg").default
 };
 
 export default Images;

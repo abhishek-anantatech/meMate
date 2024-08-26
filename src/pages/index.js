@@ -1,3 +1,7 @@
 import LandingPage from "./landing-page";
 import FeaturePage from "./feature-page";
-export { LandingPage, FeaturePage };
+import BlogPage from "./blog-page";
+import SoftwareUpdatePage from './software-update-page';
+import SinglePage from "./single-page";
+
+export { LandingPage, FeaturePage,BlogPage,SoftwareUpdatePage,SinglePage };
