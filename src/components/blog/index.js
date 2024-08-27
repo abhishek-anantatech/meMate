@@ -11,7 +11,7 @@ function Blog() {
             latest <br></br>articles
           </h1>
           <div className="heading-blog-description">
-            <span className="heading-text-blog">Resources from our team</span>
+            <span className="heading-text-blog">Ressources from our team</span>
           </div>
           <div className="dog-img-container">
             <img className="dog-img" src={Images.blogImgDog}></img>
@@ -26,7 +26,7 @@ function Blog() {
                 <div className="img-container-1-div-text-1">Adrein Beliach</div>
               </div>
               <div className="img-container-1-div-text-2">
-                Transforming design<br></br> education for <br></br>students
+                Transforming<br></br> design<br></br> education for <br></br>students
               </div>
             </div>
 
@@ -202,7 +202,7 @@ function Blog() {
           </div>
         </div>
         <div className="nextbtn-container-A">
-          <button className="next-page-btn-A">Next Page</button>
+          <button className="next-page-btn-A">Next page</button>
         </div>
       </div>
       <NextStep text="Request a Demo" />

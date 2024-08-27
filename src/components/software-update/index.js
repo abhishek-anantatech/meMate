@@ -8,7 +8,7 @@ const SoftwareUpdate = () => {
           <div className="Memate">Memate</div>
         </div>
         <div className="latestUpdates">
-          <div>Latest Updates</div>
+          <h1 className="latest-update-text">Latest Updates</h1>
         </div>
         <div className="content1">
           <div className="date">September 25,2024</div>

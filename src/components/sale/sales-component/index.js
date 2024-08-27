@@ -2,9 +2,7 @@ import "./style.css";
 const SalesComponent = () => {
   return (
     <div className="sales-component-wrapper">
-      <div>
-        
-      </div>
+      
       <span className="sales-heading">sales</span>
       <div className="sales-componet-content-wrapper">
         <p>Sales funnels</p>

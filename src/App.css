@@ -12,11 +12,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "sequel_sans";
+  src:url("./font/Sequel_Sans_Medium_Disp.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0px;
   padding: 0px;
-box-sizing: border-box !important;
-
+  box-sizing: border-box !important;
 }
-
-
