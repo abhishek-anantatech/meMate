@@ -1,8 +1,10 @@
 import React from "react";
 import "./styles.css";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import NextStep from "../next-step"
 const SoftwareUpdate = () => {
   return (
-    <div>
+    <div className="">
       <div className="parent">
         <div className="brandName">
           <div className="Memate">Memate</div>
@@ -31,20 +33,30 @@ const SoftwareUpdate = () => {
               industry. Lorem Ipsum
             </div>
             <div className="contentText5">
-              <span className="word">Flexibility</span>:Start the essential,adds
-              you grow.
+              <div className="check-circle-icon"><CheckCircleIcon htmlColor="#29292B" sx={{width:"25.162px"}}/></div>
+              <div style={{display:'flex',alignItems:"center",width:"100%"}}>
+                <p className="software-word">Flexibility : &nbsp;</p>
+                <span className="software-content"> Start the essential,adds
+                you grow.</span>
+              </div>
             </div>
-            <div className="contentText6">
-              <span className="word">Affordability</span>:A powerful base at a
-              pocket-friendly price ,expand as needed.
+            <div className="contentText5-update">
+              <div className="check-circle-icon"><CheckCircleIcon htmlColor="#29292B" sx={{width:"25.162px"}}/></div>
+              <div style={{display:'flex',width:"100%"}}>
+                <p className="software-word">Affordability : &nbsp;</p>
+                <span className="software-content"> A powerful base at a pocket-friendly price, expand as needed.</span>
+              </div>
             </div>
-            <div className="contentText7">
-              <span className="word">User-Centricity</span>:Tailored
-              solutions,driven by your feedback.
+            <div className="contentText5-update">
+              <div className="check-circle-icon"><CheckCircleIcon htmlColor="#29292B" sx={{width:"25.162px"}}/></div>
+              <div style={{display:'flex',width:"100%"}}>
+                <p className="software-word">User-Centricity: &nbsp;</p>
+                <span className="software-content">Tailored solutions, driven by your feedback. </span>
+              </div>
             </div>
           </div>
         </div>
-        <div className="content1">
+        <div className="content2">
           <div className="date">September 25,2024</div>
 
           <div className="contextText">
@@ -65,20 +77,30 @@ const SoftwareUpdate = () => {
               industry. Lorem Ipsum
             </div>
             <div className="contentText5">
-              <span className="word">Flexibility</span>:Start the essential,adds
-              you grow.
+              <div className="check-circle-icon"><CheckCircleIcon htmlColor="#29292B" sx={{width:"25.162px"}}/></div>
+              <div style={{display:'flex',alignItems:"center",width:"100%"}}>
+                <p className="software-word">Flexibility : &nbsp;</p>
+                <span className="software-content"> Start the essential,adds
+                you grow.</span>
+              </div>
             </div>
-            <div className="contentText6">
-              <span className="word">Affordability</span>:A powerful base at a
-              pocket-friendly price ,expand as needed.
+            <div className="contentText5-update">
+              <div className="check-circle-icon"><CheckCircleIcon htmlColor="#29292B" sx={{width:"25.162px"}}/></div>
+              <div style={{display:'flex',width:"100%"}}>
+                <p className="software-word">Affordability : &nbsp;</p>
+                <span className="software-content"> A powerful base at a pocket-friendly price, expand as needed.</span>
+              </div>
             </div>
-            <div className="contentText7">
-              <span className="word">User-Centricity</span>:Tailored
-              solutions,driven by your feedback.
+            <div className="contentText5-update">
+              <div className="check-circle-icon"><CheckCircleIcon htmlColor="#29292B" sx={{width:"25.162px"}}/></div>
+              <div style={{display:'flex',width:"100%"}}>
+                <p className="software-word">User-Centricity: &nbsp;</p>
+                <span className="software-content">Tailored solutions, driven by your feedback. </span>
+              </div>
             </div>
           </div>
         </div>
-        <div className="content1">
+        <div className="content3">
           <div className="date">September 25,2024</div>
 
           <div className="contextText">
@@ -99,28 +121,40 @@ const SoftwareUpdate = () => {
               industry. Lorem Ipsum
             </div>
             <div className="contentText5">
-              <span className="word">Flexibility</span>:Start the essential,adds
-              you grow.
+              <div className="check-circle-icon"><CheckCircleIcon htmlColor="#29292B" sx={{width:"25.162px"}}/></div>
+              <div style={{display:'flex',alignItems:"center",width:"100%"}}>
+                <p className="software-word">Flexibility : &nbsp;</p>
+                <span className="software-content"> Start the essential,adds
+                you grow.</span>
+              </div>
             </div>
-            <div className="contentText6">
-              <span className="word">Affordability</span>:A powerful base at a
-              pocket-friendly price ,expand as needed.
+            <div className="contentText5-update">
+              <div className="check-circle-icon"><CheckCircleIcon htmlColor="#29292B" sx={{width:"25.162px"}}/></div>
+              <div style={{display:'flex',width:"100%"}}>
+                <p className="software-word">Affordability : &nbsp;</p>
+                <span className="software-content"> A powerful base at a pocket-friendly price, expand as needed.</span>
+              </div>
             </div>
-            <div className="contentText7">
-              <span className="word">User-Centricity</span>:Tailored
-              solutions,driven by your feedback.
+            <div className="contentText5-update">
+              <div className="check-circle-icon"><CheckCircleIcon htmlColor="#29292B" sx={{width:"25.162px"}}/></div>
+              <div style={{display:'flex',width:"100%"}}>
+                <p className="software-word">User-Centricity: &nbsp;</p>
+                <span className="software-content">Tailored solutions, driven by your feedback. </span>
+              </div>
             </div>
           </div>
         </div>
         <div className="updateButton">
           <button className="btn">See more Updates</button>
         </div>
-        <div className="takeThe">Take the</div>
+        {/* <div className="takeThe">Take the</div>
         <div className="nextStep">next step</div>
         <div className="getStarted-btn-container-A">
           <button className="getStarted-btn-A">Get started</button>
-        </div>
+        </div> */}
+        
       </div>
+      <NextStep text="Request a Demo"/>
     </div>
   );
 };

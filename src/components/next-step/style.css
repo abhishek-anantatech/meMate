@@ -8,10 +8,10 @@
   text-align: center;
   font-size: 42px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 420;
   line-height: normal;
   letter-spacing: -1px;
-  font-family: "sequel_sansbook_head" !important;
+  font-family: "sequel_sans_semi_bold_disp" !important;
   margin: 0px;
 }
 
@@ -28,7 +28,7 @@
   height: 52px;
   border: navajowhite;
   outline: none;
-  font-family: "sequel_sansbook_head" !important;
+  font-family: "sequel_sans" !important;
 }
 
 .next-title h1 {
@@ -70,10 +70,10 @@
 .next-step-data {
   color: #29292b;
   text-align: center;
-  font-family: "sequel_sansbook_head" !important;
+  font-family: "sequel_sans_semi_bold_disp" !important;
   font-size: 42px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 420;
   line-height: normal;
   letter-spacing: -1px;
 }
@@ -85,7 +85,7 @@
 .next-step-data-description {
   color: #757b8a;
   text-align: center;
-  font-family: "sequel_sansbook_head" !important;
+  font-family: "sequel_sans_roman_head" !important;
   font-size: 18px;
   font-style: normal;
   font-weight: 360;

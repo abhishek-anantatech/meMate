@@ -18,6 +18,43 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
+@font-face {
+  font-family: "sequel_sans_bold_disp";
+  src:url("./font/Sequel_Sans_Bold_Disp.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sequel_sans_bold_disp";
+  src:url("./font/Sequel_Sans_Bold_Disp.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "sequel_sans_roman_head";
+  src:url("./font/Sequel_Sans_Roman_Head.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sequel_sans_roman_disp";
+  src:url("./font/Sequel_Sans_Roman_Disp.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sequel_sans_semi_bold_disp";
+  src:url("./font/Sequel_Sans_Semi_Bold_Disp.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0px;
   padding: 0px;

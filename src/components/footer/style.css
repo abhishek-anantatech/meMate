@@ -22,6 +22,7 @@ p.management-footer {
   font-style: normal;
   font-weight: 360;
   line-height: 140%;
+  font-family: "sequel_sans_roman_head" !important;
 }
 
 p.management-footer {
@@ -47,6 +48,7 @@ p.management-footer {
   line-height: 140%;
   letter-spacing: -0.17px;
   text-align: left;
+  font-family: "sequel_sans_semi_bold_disp" !important;
 }
 
 .media-links {
@@ -65,6 +67,7 @@ p.management-footer {
   line-height: 140%;
   letter-spacing: -0.17px;
   text-align: left;
+  font-family: "sequel_sans_semi_bold_disp" !important;
 }
 
 .download {
@@ -85,6 +88,7 @@ p.management-footer {
   font-weight: 360;
   line-height: 140%;
   text-align: left;
+  font-family: "sequel_sans_roman_head" !important;
 }
 
 .bottom-text {
@@ -99,6 +103,7 @@ p.management-footer {
   line-height: 140%;
   margin-bottom: 30px;
   text-align: left;
+  font-family: "sequel_sans_semi_bold_disp" !important;
 }
 
 .page-links {
@@ -115,6 +120,7 @@ p.management-footer {
   line-height: 140%;
   max-width: 167px;
   text-align: left;
+  font-family: "sequel_sans_roman_head";
 }
 
 .top-space {

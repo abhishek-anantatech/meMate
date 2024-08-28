@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import {
   BlogPage,
   FeaturePage,
+  IndustryPage,
   LandingPage,
   SinglePage,
   SoftwareUpdatePage,
@@ -17,6 +18,7 @@ function App() {
         <Route path="/blog" exact element={<BlogPage />} />
         <Route path="/software-update" exact element={<SoftwareUpdatePage />} />
         <Route path="/SinglePage" exact element={<SinglePage />} />
+        <Route path="/industry" exact element={<IndustryPage />} />
       </Routes>
     </div>
   );

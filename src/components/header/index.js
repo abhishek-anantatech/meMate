@@ -22,9 +22,9 @@ const Header = () => {
             <p>About </p>
             <span onClick={() => setShowDropDown(!showDropDown)}>
               {showDropDown ? (
-                <KeyboardArrowDownIcon htmlColor="#29292B" />
+                <KeyboardArrowDownIcon htmlColor="#29292B" sx={{strokeWidth:'2px',stroke:"#29292B"}} />
               ) : (
-                <KeyboardControlKeyIcon htmlColor="#29292B" />
+                <KeyboardControlKeyIcon htmlColor="#29292B" sx={{strokeWidth:'2px',stroke:"#29292B"}}/>
               )}
             </span>
           </div>
